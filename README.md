@@ -1,7 +1,8 @@
 # 华中师范大学幻灯片模板
 ## 使用说明
 1. 下载并安装 TeXLive；
-2. 下载本模板文件；
+2. 下载本模板文件（使用 ```git``` 命令或在
+[这里下载](https://github.com/K-JW/CCNU_BeamerTemplate/releases)）；
 3. 编写 ```.tex``` 文件；
 4. 使用 ```XeLaTeX``` 编译（当前仅支持 ```XeLaTeX``` 方式编译，已在 ```Win10 +
 TeXLive 2017```和 ```Ubuntu 16.04 + TeXLive 2017``` 平台上测试）。
