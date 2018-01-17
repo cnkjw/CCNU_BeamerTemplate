@@ -69,7 +69,7 @@
 %%%
 
 % Background
-\pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg}{ccnu_background}
+\pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg}{res/ccnu_background}
 \setbeamertemplate{background}{\pgfuseimage{bg}}
 
 % Colors
@@ -114,8 +114,8 @@
   \leavevmode%
   \@tempdimb=6.4375ex%
     %\multiply\@tempdimb by\beamer@sectionmax%
-    \pgfdeclareimage[height=.95\@tempdimb]{logo}{ccnu_logo.png}%
-    \pgfdeclareimage[height=1.\@tempdimb]{title_logo}{ccnu_title.png}%
+    \pgfdeclareimage[height=.95\@tempdimb]{logo}{res/ccnu_logo.png}%
+    \pgfdeclareimage[height=1.\@tempdimb]{title_logo}{res/ccnu_title.png}%
   \logo{\pgfuseimage{logo}}%
   \ifdim\@tempdimb>0pt%
     \advance\@tempdimb by 1.125ex%

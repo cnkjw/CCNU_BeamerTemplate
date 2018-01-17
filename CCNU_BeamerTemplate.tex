@@ -1,12 +1,15 @@
+%# -*- coding:utf-8 -*-
 \documentclass[10pt,aspectratio=169,mathserif]{beamer}		
 %设置为 Beamer 文档类型，设置字体为 10pt，长宽比为16:9，数学字体为 serif 风格
 
 %%%%-----导入宏包-----%%%%
 \usepackage{ccnu}			%导入 CCNU 模板宏包
-\usepackage{ctex}			 %导入 ctex 宏包，添加中文支持
+\usepackage{ctex}			%导入 ctex 宏包，添加中文支持
 \usepackage{amsmath,amsfonts,amssymb,bm}   %导入数学公式所需宏包
 \usepackage{color}			 %字体颜色支持
-\usepackage{graphicx,hyperref,url}	
+\usepackage{graphicx,hyperref,url}
+\usepackage{metalogo}	% 非必须
+%% 上文引用的包可按实际情况自行增删
 %%%%%%%%%%%%%%%%%%	
 
 
@@ -15,7 +18,7 @@
 %%%%------------------------%%%%%
 \catcode`\。=\active         %或者=13
 \newcommand{。}{．}				
-%将正文中的“。”号转换为“.”。
+%将正文中的“。”号转换为“.”。中文标点国家规范建议科技文献中的句号用圆点替代
 %%%%%%%%%%%%%%%%%%%%%
 
 %%%%----首页信息设置----%%%%
@@ -58,8 +61,8 @@
   \begin{itemize}
     \item {编译方式}
 	    \begin{itemize}
-	    	\item  推荐安装完整版的 TexLive
-	    	\item 使用 xelatex 编译
+	    	\item  推荐安装完整版的 TeXLive
+	    	\item 使用 \XeLaTeX 编译
 	    \end{itemize}
     \item 请参考 \LaTeX 和 Beamer 用户文档 
     
@@ -114,8 +117,8 @@
 \begin{thebibliography}{99} 
 \bibitem{zhao1} Yi~Zhao, {\sl An introduction to X}, Sep.~15, 2015
 \bibitem{qian2} Er~Qian, San~Sun, 
-Phys.\ Rev.\ J.\ C {\bf xx}, 2xx (20xx)   
-\bibitem{li4} Si~Li, Phys.\ Rev.\ J.\ C {\bf xx}, 5xx (20xx) 
+Phys.\ Lett.\ A {\bf xx}, 2xx (20xx)   
+\bibitem{li4} Si~Li, Phys.\ Rev.\ C {\bf xx}, 5xx (20xx) 
 
 \end{thebibliography}
 \end{frame}
