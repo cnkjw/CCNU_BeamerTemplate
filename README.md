@@ -10,7 +10,7 @@ TeXLive 2017```和 ```Ubuntu 16.04 + TeXLive 2017``` 平台上测试）。
 ![](https://github.com/K-JW/CCNU_BeamerTemplate/blob/master/figures/page_01.jpg)
 ![](https://github.com/K-JW/CCNU_BeamerTemplate/blob/master/figures/page_03.jpg)
 
-## 更细日志
+## 更新日志
 * 2018-01-17 :
   * v1.1 
     * 将模板引用的资源文件（例如学校 logo 等）归类到 ```res``` 文件夹之下
